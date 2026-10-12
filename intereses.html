@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intereses y Hobbies</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="contenedor">
+
+  <header>
+    <svg class="avatar" viewBox="0 0 200 200" aria-hidden="true">
+      <rect width="200" height="200" fill="#d9e6e3"/>
+      <circle cx="100" cy="78" r="38" fill="#2f6f6a"/>
+      <path d="M28 200c0-46 32-72 72-72s72 26 72 72z" fill="#2f6f6a"/>
+    </svg>
+    <div>
+      <h1>Intereses y Hobbies</h1>
+      <p>Adrian Alejandro Salinas Candelario</p>
+    </div>
+  </header>
+
+  <nav aria-label="Menú principal">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="estudios.html">Estudios</a></li>
+      <li><a href="intereses.html" aria-current="page">Intereses y Hobbies</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section aria-labelledby="intereses">
+      <h2 id="intereses">Intereses</h2>
+      <p>Estos son mis hobbies favoritos:</p>
+      <ul>
+        <li><strong>Videojuegos:</strong> me gusta mucho jugar <em>Fortnite</em> y <em>Minecraft</em>.</li>
+        <li><strong>Fútbol:</strong> me encanta ver fútbol y soy aficionado del <em>Real Madrid</em>.</li>
+        <li><strong>Música:</strong> me gusta la música y estoy aprendiendo a tocar instrumentos musicales.</li>
+      </ul>
+      <!-- Cambia VIDEO_ID por el ID de un video de YouTube sobre tus intereses -->
+      <figure>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Video sobre mis intereses" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <figcaption>Video sobre mis intereses</figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="musica">
+      <h2 id="musica">Música favorita</h2>
+      <p>Las bandas que más escucho son:</p>
+      <ul>
+        <li>Oasis</li>
+        <li>Foster the People</li>
+        <li>The Strokes</li>
+      </ul>
+      <!-- Cambia VIDEO_ID por el ID de tu canción o lista favorita -->
+      <figure>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Mi música favorita" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <figcaption>Una canción de mis bandas favoritas</figcaption>
+      </figure>
+    </section>
+
+    <section aria-labelledby="enlaces">
+      <h2 id="enlaces">Enlaces de interés</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+        <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Adrian Alejandro Salinas Candelario. Hecho con HTML5.</p>
+  </footer>
+
+</div>
+</body>
+</html>
